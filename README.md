@@ -36,13 +36,13 @@ MS COCO
 - Click on one of the links above to download the model and save it in the weights dir
 
 
-## Tracking sources
+## Tracking and Counting Vehicles
 
 Tracking can be run on most video formats. Use the script tracv_v7.sh to for inference. <br>
-Note - Modify $VIDEO_PATH before running inference
+Note - 
+- Modify $VIDEO_PATH before running inference
+- Modify $YOLOV7_WRIGHTS to point to the downloaded weights (from the above table)
 
-
-## Select object detectors and ReID model
 
 ```bash
 
